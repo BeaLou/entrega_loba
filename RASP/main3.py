@@ -36,7 +36,7 @@ def enviarPraLoba():
         if response.status_code == 200:
             print('Requisição enviada com sucesso!')
         else:
-            print('erro, porra', response.status_code)
+            print('erro', response.status_code)
 
 
 while True:
